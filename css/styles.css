@@ -65,7 +65,21 @@ body {
   color: var(--h-color);
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 /* ********************************  header  ****************************** */
+header {
+  border-bottom: 1px solid #ececec;
+}
 
 .nav-link {
   font-weight: 500;
@@ -176,6 +190,10 @@ body {
 .buttons:focus {
   color: var(--hero-and-city-word-color);
   background-color: var(--second-color);
+}
+
+.portfolio-filter-box-list-item {
+  border-bottom: 1px solid #eeeeee;
 }
 
 .portfolio-heading {
